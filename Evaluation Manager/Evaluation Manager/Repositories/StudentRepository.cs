@@ -8,7 +8,7 @@ using DBLayer;
 
 namespace Evaluation_Manager.Repositories
 {
-    internal class StudentRepository
+    public class StudentRepository
     {
         public static Student GetStudent(int id)
         {

@@ -15,7 +15,6 @@ namespace Evaluation_Manager
         [STAThread]
         static void Main()
         {
-            DB.SetConfiguration("DBLayer", "teacher", "test");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FrmLogin());
